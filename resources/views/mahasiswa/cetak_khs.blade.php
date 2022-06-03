@@ -3,7 +3,6 @@
 <div class="container mt-3">
         <h2 class="text-center mb-5">MAHASISWA JURUSAN TEKNOLOGI INFORMASI</h3>
         <h2 class="text-center mb-4">KARTU HASIL STUDI (KHS)</h2>
-        <a style="width: 120px; height: 40px" href="{{ route('mahasiswa.cetak_khs', $mhs->mahasiswa->nim) }}"class="mt-4 btn btn-success float-right">CetakKHS</a>
         <br><br><br>
 
         <b>Nama: </b> {{ $mhs->mahasiswa->nama}}<br>
